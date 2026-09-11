@@ -19,6 +19,9 @@ body{
 .row{
     margin: 1%;
 }
+#Hola{
+    font-size: 1.5rem;
+}
 #Hola, #Real, .bi-code-slash{
     color: #4E51FB;
 }
@@ -35,7 +38,7 @@ h2, #kendarg, .lead, .lead1, .lead2, .proyectos{
     flex-direction: column;
 }
 .bi-github, .bi-people-fill, .bi-person-gear, .itemsCentrar, .fa-bullseye .fa-graduation-cap,
-.bi-rocket-takeoff, .bi-person, .fa-folder-open{
+.bi-rocket-takeoff, .bi-person, .fa-folder-open, .arrow{
     color: #365EAF;
     font-size: 1.5rem;
 }
@@ -81,6 +84,11 @@ h2, #kendarg, .lead, .lead1, .lead2, .proyectos{
 .html{
 color: #ED5F2C;
 }
+.centro{
+    display: flex;
+    margin-left: 1rem;
+}
+
 
 .logoCSS .fa-square, .logoHtml .fa-square{
     transform: scale(0.70);
@@ -98,18 +106,22 @@ margin-left: 1rem;
 }
 
 
-.fa-folder-open, .bi-rocket-takeoff, .bi-person{
+.fa-folder-open, .bi-rocket-takeoff{
     margin-right: 0.5rem;
     font-size: 2rem;
 }
-
+.bi-person{
+    display: flex;
+    margin-right: 0.5rem;
+    font-size: 2.8rem;
+}
 /* Imagenes */
 .foto1{
     width: 400px;
     height: auto;
     border-radius: 50px;
 }
-.foto2{
+.foto2, .foto2g{
     width: 300Px;
     height: auto;
     border-radius: 10px;
@@ -119,13 +131,23 @@ margin-left: 1rem;
     height: 120%;
     width: auto;
 }
-
+.foto2, .efecto:hover .foto2g{
+    display: flex;
+}
+.foto2g, .efecto:hover .foto2{
+    display: none;
+}
 /* Cards */
+
 
 .shadow-sm{
     background-color: transparent;
-    border: solid 2px black;
+    border: solid 2px rgb(94, 92, 92);
+    height: 40rem;
     color: white;
+}
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 article{
@@ -186,7 +208,6 @@ article:hover img:last-child{
 }
 
 
-
 /* Inclinacio texto */
 
 #Constancia{
@@ -214,13 +235,34 @@ article:hover img:last-child{
     border-radius: 0 80px 50px 0;
     transform: rotate(-190deg);
 }
+.btncv:hover .stars{
+    display: block;
+    filter: drop-shadow(
+        0 0 10px
+        #fffdef
+    );
+}
+.btnCv{
+    border: 2px solid #2b6cb0;
+}
 
+.btnCv2{
+    height: 2rem;
+    width: 10rem;
+    background-color: #2b6cb0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 10px;
+}
 
+.sobreP{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 @media (min-width: 768px) {
     .infoIconos {
         border-left: 2px solid #365EAF;
         padding-left: 2rem;
-        height: 25rem;
+        height: 18rem;
         align-self: center;
     }
 }
