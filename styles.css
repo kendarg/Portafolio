@@ -1,0 +1,128 @@
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #070F1D;
+
+}
+.navbar{
+    background-color: #001746;
+}
+.bi-code-slash{
+    font-size: 2rem;
+}
+.row{
+    margin: 1%;
+}
+#Hola, #Real, .bi-code-slash{
+    color: #4E51FB;
+}
+h2, #kendarg, .lead, .lead1, .lead2, .proyectos{
+    color: white;
+}
+
+.fuente-kaushan {
+    font-family: 'Kaushan Script', cursive !important;
+}
+
+.infoIconos{
+    display: flex;
+    flex-direction: column;
+}
+.bi-github, .bi-people-fill, .bi-person-gear, .itemsCentrar, .fa-bullseye .fa-graduation-cap,
+.bi-rocket-takeoff, .bi-person, .fa-folder-open{
+    color: #365EAF;
+    font-size: 1.5rem;
+}
+.itemsCentrar{
+    display: flex;
+    align-items: flex-start;
+}
+.lead2{
+    font-size: 1rem;
+}
+
+.fondoBlanco {
+    color: #ffffff;
+}
+.fondoNegro{
+    color: black;
+}
+
+.bootstrap {
+    color: #6A2EBA;
+}
+
+.logoBootstrap .fa-square {
+    transform: scale(0.85);
+}
+
+.java{
+    color: #365EAF  ;
+}
+
+.logoJava .fa-square{
+    transform: scale(1.20);
+}
+.js{
+    color: #E4D333;
+}
+.logoJS .fa-square{
+    transform: scale(0.5);
+}
+.css{
+    color: #538ACA;
+}
+.html{
+color: #ED5F2C;
+}
+
+.logoCSS .fa-square, .logoHtml .fa-square{
+    transform: scale(0.70);
+}
+
+.logoBootstrap, .logoJava, .logoJS, .logoCSS, .logoHtml{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.itemsM, .habilidadesIconos{
+    display: flex;
+}
+.itemsM{
+margin-left: 1rem;
+}
+
+
+.fa-folder-open, .bi-rocket-takeoff, .bi-person{
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+/* Imagenes */
+.foto1{
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
+}
+.foto2{
+    width: 300Px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+
+
+@media (min-width: 768px) {
+    .infoIconos {
+        border-left: 2px solid #365EAF;
+        padding-left: 2rem;
+        height: 25rem;
+        align-self: center;
+    }
+}
